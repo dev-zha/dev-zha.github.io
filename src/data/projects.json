@@ -1,0 +1,30 @@
+[
+  {
+    "id": "project-1",
+    "title": "Project 1",
+    "description": "This is project 1 description",
+    "image": "https://plus.unsplash.com/premium_photo-1700166363803-69b3462557a0?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["React.js", "JavaScript"]
+  },
+  {
+    "id": "project-2",
+    "title": "Project 2",
+    "description": "This is project 2 description",
+    "image": "https://images.unsplash.com/photo-1700403985615-544cfbd74ace?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["Tailwind", "CSS"]
+  },
+  {
+    "id": "project-3",
+    "title": "Project 3",
+    "description": "This is project 3 description",
+    "image": "https://plus.unsplash.com/premium_photo-1670615264516-44d603a4d0b6?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["Next.js", "Tailwind"]
+  },
+  {
+    "id": "project-4",
+    "title": "Project 4",
+    "description": "This is project 4 description",
+    "image": "https://plus.unsplash.com/premium_photo-1670615264516-44d603a4d0b6?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["Next.js", "Tailwind"]
+  }
+]
