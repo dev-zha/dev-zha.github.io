@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('./scroll-bar.css');
-@import url('./loading-animation.css');
+@import url('../styles/scroll-bar.css');
+@import url('../styles/loading-animation.css');
 
 :root {
     --foreground-rgb: 0, 0, 0;

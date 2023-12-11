@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import HorizonParallax from './HorizonParallax';
 import { SkillIcon, skillIcons } from './data';
@@ -29,11 +31,6 @@ export default function Skills() {
 
   return (
     <section>
-      <HorizonParallax baseVelocity={-velocity}>
-        {skillIcons.map((skill, index) => (
-          <SkillIconRender key={index} skill={skill} />
-        ))}
-      </HorizonParallax>
       <HorizonParallax baseVelocity={velocity}>
         {skillIcons.map((skill, index) => (
           <SkillIconRender key={index} skill={skill} />

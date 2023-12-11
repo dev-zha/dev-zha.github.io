@@ -1,8 +1,9 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import { useAnimate, AnimatePresence } from 'framer-motion';
 import { MobileMenuBox } from './MobileMenuBox';
 import MobileMenuToggle from './MobileMenuToggle';
-import { useRouter } from 'next/router';
 
 function useMenuAnimation(isOpen: boolean) {
   const [scope, animate] = useAnimate();
@@ -29,14 +30,6 @@ function useMenuAnimation(isOpen: boolean) {
 
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
-
-  const router = useRouter();
-
-  useEffect(() => {
-    if (router.asPath) {
-      setIsOpen(false);
-    }
-  }, [router.asPath]);
 
   const scope = useMenuAnimation(isOpen);
 

@@ -10,7 +10,7 @@ export const profileData = {
   position: 'Software Developer',
   aboutMe: `Hey there! I'm Zaw Hte Aung, a Junior Developer currently employed at a Tech Solution Company in Yangon. 
 My coding journey started at MIIT, where I refined my skills and gained valuable experience. 
-I enjoy in working on both web and mobile applications, where every line of code is an opportunity to create something special. 
+I enjoy working on both web and mobile applications, where every line of code is an opportunity to create something special. 
 I am open to job opportunities where I can contribute, learn, and grow. If you have an exciting opportunity that aligns with my skills and experience, please don't hesitate to contact me.`,
 };
 

@@ -1,3 +1,5 @@
+'use client';
+
 import AboutMe from './AboutMe';
 import Articles from './Articles';
 import GetInTouch from './GetInTouch';
