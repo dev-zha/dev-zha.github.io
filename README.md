@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zaw Htet Aung's Portfolio
+
+Welcome to my portfolio project built with Next.js! 
+
+This site showcases my skills, projects, and thoughts through an interactive and dynamic interface.
+
+## Features
+
+- **Next.js Framework:** Utilizing the power of Next.js for a fast and efficient web experience.
+- **Markdown Blog:** Engage with my thoughts and experiences through the blog section, where content is rendered seamlessly from Markdown files.
+- **Interactive UI:** Explore my projects, skills, and achievements with a user-friendly and responsive interface.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository:**
+```
+git clone https://github.com/dev-zha/dev-zha.github.io
+```
+   
+Install Dependencies:
 
-```bash
+```
+npm install
+```
+Run the Development Server:
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view your portfolio in the browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+- `/pages`: Contains Next.js pages for different sections of the portfolio.
+- `/public`: Store static assets such as images.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Blog Content
+- Blog posts are stored in the `/content/blog` directory and are written in Markdown.
+- To add a new blog post, create a new Markdown file in the blog directory. *(must contain required front matter)*
+- Run Script to run auto generated blog list json file
+```
+npm run scripts:build
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> Thank you for visiting my portfolio! 🚀

@@ -4,4 +4,7 @@ export interface Project {
   description: string;
   image: string;
   tags: string[];
+  order: number;
+  sourceCode?: string;
+  liveUrl?: string;
 }

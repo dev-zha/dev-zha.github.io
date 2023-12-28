@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import MHeaderTitle from '@/components/shared/motion/MHeaderTitle';
 import MContainer from '@/components/shared/motion/MContainer';
@@ -10,8 +12,8 @@ export default function AboutMe() {
       id="about-me"
     >
       <MHeaderTitle>About Me</MHeaderTitle>
-      <motion.p
-        className="text-neutral-700 text-lg mt-8 whitespace-pre-line"
+      <motion.pre
+        className="text-neutral-700 mt-8 whitespace-pre-line"
         variants={{
           offscreen: {
             y: 100,
@@ -27,7 +29,7 @@ export default function AboutMe() {
         }}
       >
         {profileData.aboutMe}
-      </motion.p>
+      </motion.pre>
     </MContainer>
   );
 }

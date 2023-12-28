@@ -4,13 +4,4 @@
 
 @import url('../styles/scroll-bar.css');
 @import url('../styles/loading-animation.css');
-
-:root {
-    --foreground-rgb: 0, 0, 0;
-    --background-rgb: 255, 255, 255;
-}
-
-body {
-    color: rgb(var(--foreground-rgb));
-    background: rgb(var(--background-rgb));
-}
+@import url('../styles/markdown.css');

@@ -6,18 +6,18 @@ export interface NavItem {
 export const navItems: NavItem[] = [
   {
     title: 'About Me',
-    link: '#about-me',
+    link: '/#about-me',
   },
   {
     title: 'Project',
-    link: '#projects',
+    link: '/projects',
   },
   {
     title: 'Blog',
-    link: '#blogs',
+    link: '/blogs',
   },
   {
     title: 'Contact',
-    link: '#contact',
+    link: '/#contact',
   },
 ];

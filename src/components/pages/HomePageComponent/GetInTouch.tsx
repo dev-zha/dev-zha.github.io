@@ -1,14 +1,21 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import MHeaderTitle from '@/components/shared/motion/MHeaderTitle';
 import MContainer from '@/components/shared/motion/MContainer';
-import PrimaryButton from '@/components/shared/PrimaryButton';
+import Button from '@/components/shared/button/Button';
+import { profileData } from '@/data/profile';
+import { PiHandWaving,PiHandWavingFill } from 'react-icons/pi';
 
 export default function GetInTouch() {
   return (
-    <MContainer className="max-w-screen-md text-center mx-auto px-10" id="contact">
+    <MContainer
+      className="max-w-screen-md text-center mx-auto px-10"
+      id="contact"
+    >
       <MHeaderTitle>Get In Touch</MHeaderTitle>
       <motion.p
-        className="text-neutral-700 text-lg mt-8 whitespace-pre-line"
+        className="text-neutral-700 text-lg mt-4 whitespace-pre-line"
         variants={{
           offscreen: {
             y: 100,
@@ -28,7 +35,7 @@ export default function GetInTouch() {
         }
       </motion.p>
       <motion.div
-        className="mt-4"
+        className="mt-6"
         variants={{
           offscreen: {
             scale: 0,
@@ -43,7 +50,14 @@ export default function GetInTouch() {
           },
         }}
       >
-        <PrimaryButton>Say Hello</PrimaryButton>
+        <Button
+          href={`mailto:${profileData.email}`}
+          target="_blank"
+          className="group flex items-center"
+        >
+          <span>Say Hello</span>
+          <PiHandWavingFill className="w-5 h-5 ml-2 group-hover:rotate-45 transition ease-out" />
+        </Button>
       </motion.div>
     </MContainer>
   );

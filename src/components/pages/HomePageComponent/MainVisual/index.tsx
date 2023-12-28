@@ -1,3 +1,5 @@
+'use client';
+
 import BackgroundLogo from './BackgroundLogo';
 import Info from './Info';
 import SketchProfile from './SketchProfile';

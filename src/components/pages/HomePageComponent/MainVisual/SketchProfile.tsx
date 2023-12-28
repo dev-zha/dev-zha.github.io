@@ -6,7 +6,6 @@ export default function SketchProfile() {
       initial="hidden"
       animate="visible"
       className="w-full h-full"
-      exit={{ opacity: 0, transition: { duration: 1 } }}
       variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
     >
       <motion.div

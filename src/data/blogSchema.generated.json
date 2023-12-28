@@ -1,0 +1,54 @@
+[
+  {
+    "id": "deploy-nextjs-github-pages",
+    "title": "Deploy Next.js on GitHub Pages",
+    "description": "Learn how to effortlessly deploy your Next.js app on GitHub Pages using GitHub Actions, ensuring your project is readily accessible online.",
+    "date": "2022-11-30",
+    "image": "/images/blogs/deploy-nextjs-github-pages/feature-image.png",
+    "tags": [
+      "Tutorial",
+      "Next.js",
+      "GitHub Pages",
+      "GitHub Actions",
+      "Deployment"
+    ]
+  },
+  {
+    "id": "git-basic-mm",
+    "title": "Git အခြေခံ",
+    "description": "Beginner များအတွက် Git အခြေခံကို နားလည်လွယ်ကူစေရန် ရှင်းလင်းဖော်ပြထားခြင်းဖြစ်သည်",
+    "date": "2022-12-26",
+    "image": "/images/blogs/git-basic/feature-image-mm.png",
+    "tags": [
+      "Git",
+      "GitHub",
+      "VCS",
+      "Tutorial"
+    ]
+  },
+  {
+    "id": "git-basic",
+    "title": "Git Basic",
+    "description": "For beginners, Git basics are described to be easy to understand",
+    "date": "2022-12-26",
+    "image": "/images/blogs/git-basic/feature-image-en.png",
+    "tags": [
+      "Git",
+      "GitHub",
+      "VCS",
+      "Tutorial"
+    ]
+  },
+  {
+    "id": "use-multiple-php-in-xampp",
+    "title": "Using Multiple PHP Versions in XAMPP",
+    "description": "A simple method to manage and switch between multiple PHP versions in XAMPP using easy-to-use batch files.",
+    "date": "2022-11-30",
+    "image": "/images/blogs/use-multiple-php-in-xampp/feature-image.png",
+    "tags": [
+      "Tutorial",
+      "XAMPP",
+      "PHP"
+    ]
+  }
+]

@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion';
-import PrimaryButton from '@/components/shared/PrimaryButton';
 import { profileData, socialLinks } from '@/data/profile';
+import Button from '@/components/shared/button/Button';
 
 export default function Info() {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      exit={{ opacity: 0, transition: { duration: 1 } }}
       variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
     >
       <motion.p
@@ -47,7 +46,13 @@ export default function Info() {
           },
         }}
       >
-        <PrimaryButton className="mt-8">Download Resume</PrimaryButton>
+        <Button
+          href="https://drive.google.com/drive/folders/1GKbEdP0ckBg3NElOE7hdACzCimeQjGPD?usp=drive_link"
+          target="_blank"
+          className="inline-block mt-8"
+        >
+          Download Resume
+        </Button>
       </motion.div>
       <div className="flex space-x-4 mt-8">
         {socialLinks?.map((sl) => (
@@ -62,7 +67,7 @@ export default function Info() {
                 },
               }}
             >
-              <sl.icon className="w-8 h-8 fill-neutral-800 stroke-neutral-800 hover:fill-neutral-600 hover:stroke-neutral-600 hover:scale-105" />
+              <sl.icon className="w-7 h-7 fill-neutral-800 stroke-neutral-800 hover:fill-neutral-600 hover:stroke-neutral-600 hover:scale-110" />
             </motion.span>
           </a>
         ))}

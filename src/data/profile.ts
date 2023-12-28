@@ -1,17 +1,24 @@
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
-import { MdOutlineAlternateEmail } from 'react-icons/md';
-import { AiFillInstagram } from 'react-icons/ai';
-import { MdPhoneEnabled } from 'react-icons/md';
-
 import { IconType } from 'react-icons';
+import {
+  SiGithub,
+  SiLinkedin,
+  SiInstagram,
+  SiCodesandbox,
+  SiMaildotru,
+} from 'react-icons/si';
+import { MdPhoneEnabled } from 'react-icons/md';
 
 export const profileData = {
   name: 'Zaw Htet Aung',
   position: 'Software Developer',
-  aboutMe: `Hey there! I'm Zaw Hte Aung, a Junior Developer currently employed at a Tech Solution Company in Yangon. 
-My coding journey started at MIIT, where I refined my skills and gained valuable experience. 
-I enjoy working on both web and mobile applications, where every line of code is an opportunity to create something special. 
-I am open to job opportunities where I can contribute, learn, and grow. If you have an exciting opportunity that aligns with my skills and experience, please don't hesitate to contact me.`,
+  email: 'zawhtetaung21199@gmail.com',
+  aboutMe: `Hey there! I'm Zaw Hte Aung, a Software Developer 
+currently employed at a Tech Solution Company in Yangon. 
+I enjoy working on both web and mobile applications, 
+where every line of code is an opportunity to create something special. 
+I am open to job opportunities where I can contribute, learn, and grow. 
+If you have an exciting opportunity that aligns with my skills and experience, 
+please don't hesitate to contact me.`,
 };
 
 export const resumeLink = 'www.google.com';
@@ -25,27 +32,32 @@ export interface SocialLink {
 export const socialLinks: SocialLink[] = [
   {
     name: 'Github',
-    icon: IoLogoGithub,
-    link: 'https://github.com',
+    icon: SiGithub,
+    link: 'https://github.com/dev-zha',
   },
   {
     name: 'Linkedin',
-    icon: IoLogoLinkedin,
-    link: 'https://linkedin.com',
+    icon: SiLinkedin,
+    link: 'https://linkedin.com/in/zawhtetaung21199',
   },
   {
     name: 'Instagram',
-    icon: AiFillInstagram,
-    link: 'https://www.instagram.com/',
+    icon: SiInstagram,
+    link: 'https://www.instagram.com/zeus_zer0',
+  },
+  {
+    name: 'CodeSandbox',
+    icon: SiCodesandbox,
+    link: 'https://codesandbox.io/u/zawhtetaung',
   },
   {
     name: 'Email',
-    icon: MdOutlineAlternateEmail,
-    link: 'mailto:yourmail@gmail.com',
+    icon: SiMaildotru,
+    link: 'mailto:zawhtetaung21199@gmail.com',
   },
   {
     name: 'Phone',
     icon: MdPhoneEnabled,
-    link: 'tel:+95987654321',
+    link: 'tel:+959791425608',
   },
 ];

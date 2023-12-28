@@ -7,7 +7,7 @@ import { navItems } from './data';
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full bg-neutral-100/30 backdrop-blur z-20 top-0 start-0 border-b border-neutral-500/30">
+    <nav className="fixed w-full bg-neutral-100/60 backdrop-blur z-20 top-0 start-0 border-b border-neutral-500/30">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link href="/">
           <svg
