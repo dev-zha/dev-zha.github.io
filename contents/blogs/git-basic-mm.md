@@ -172,7 +172,7 @@ git checkout <branch_name>
 git checkout -b <branch_name>
 ```
 
-ဒီနေရာမှာ `-d` က branch အသစ် create မယ်ဆိုတဲ့ command ဖြစ်တယ်
+ဒီနေရာမှာ `-b` က branch အသစ် create မယ်ဆိုတဲ့ command ဖြစ်တယ်
 
 ### Git Merge
 

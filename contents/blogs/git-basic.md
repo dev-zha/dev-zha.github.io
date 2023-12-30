@@ -173,7 +173,7 @@ If you want to **create + switch** the branch at once, you can do it by running 
 git checkout -b <branch_name>
 ```
 
-Here `-d` is the command to create a new branch
+Here `-b` is the command to create a new branch
 
 ### Git Merge
 

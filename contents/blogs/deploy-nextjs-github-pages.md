@@ -71,7 +71,7 @@ git push -u origin main
 
 > If you are using Next.js 14, the original config file will not work smoothly and need some changes. It is currently work with <14 versions. 
 
->  For Next.js 14, use [this](https://github.com/dev-zha/dev-zha.github.io/blob/main/.github/workflows/nextjs.yml) config file instead of origin one or update shown in following:
+>  For Next.js 14, use [this](https://gist.github.com/dev-zha/5a4ae45c7c981aa024dd7d6b269b6cb8) config file instead of origin one or update shown in following:
 
 Change node version to `18` and remove `next export`
 

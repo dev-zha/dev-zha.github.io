@@ -33,9 +33,15 @@ export default function MobileMenu() {
 
   const scope = useMenuAnimation(isOpen);
 
+  const handleItemClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div ref={scope} className="block sm:hidden">
-      <AnimatePresence>{isOpen && <MobileMenuBox />}</AnimatePresence>
+      <AnimatePresence>
+        {isOpen && <MobileMenuBox onItemClick={handleItemClick} />}
+      </AnimatePresence>
       <MobileMenuToggle toggle={() => setIsOpen(!isOpen)} />
     </div>
   );

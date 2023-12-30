@@ -8,7 +8,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: profileData.name,
   description: `${profileData.name}'s Portfolio`,
-  metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
+  metadataBase: new URL(`https://${process.env.APP_URL}`),
   openGraph: {
     title: profileData.name,
     description: `${profileData.name}'s Portfolio`,
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth'>
       <body
         className={`${fontTypeSan.variable} ${fontTypeSerif.variable} ${fontTypeMono.variable} font-sans`}
       >

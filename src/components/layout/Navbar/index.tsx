@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link href="/">
           <svg
-            className="w-10 h-10 bg-white hover:bg-primary-500 fill-black hover:fill-white rounded-full hover:scale-110 transform transition-transform duration-300 ease-in-out"
+            className="w-10 h-10 bg-primary hover:bg-primary-400 fill-white rounded-full hover:scale-110 transform transition-transform duration-300 ease-in-out"
             width="512"
             height="512"
             viewBox="0 0 512 512"

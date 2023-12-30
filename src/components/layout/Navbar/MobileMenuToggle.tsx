@@ -6,10 +6,10 @@ export default function MobileMenuToggle({ toggle }: any) {
   return (
     <button
       onClick={toggle}
-      className="fixed top-3 right-3 bg-white p-2 rounded-full"
+      className="fixed top-2 right-2 p-2 rounded-full"
     >
       <svg
-        className="w-5 h-5 stroke-primary-500"
+        className="w-6 h-6 stroke-primary-500"
         width="23"
         height="18"
         viewBox="0 0 23 18"

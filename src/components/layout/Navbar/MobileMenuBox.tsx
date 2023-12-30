@@ -22,7 +22,11 @@ const sidebar = {
   },
 };
 
-export function MobileMenuBox() {
+interface MobileMenuBoxProps {
+  onItemClick: () => void;
+}
+
+export function MobileMenuBox({ onItemClick }: MobileMenuBoxProps) {
   return (
     <motion.nav
       className="fixed top-0 right-0 bottom-0 w-full h-screen bg-neutral-100"
@@ -30,9 +34,9 @@ export function MobileMenuBox() {
       animate={sidebar.open}
       exit={sidebar.closed}
     >
-      <ul className="flex flex-col gap-10 p-10 pt-20">
+      <ul className="w-full h-full flex flex-col items-center justify-center gap-10 p-10 pt-20">
         {navItems?.map((navItem, index) => (
-          <MobileMenuItem key={index} index={index} navItem={navItem} />
+          <MobileMenuItem key={index} index={index} navItem={navItem} onClick={onItemClick} />
         ))}
       </ul>
     </motion.nav>
