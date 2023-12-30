@@ -49,7 +49,7 @@ command run ပြီးသွားရင် ‌project file ထဲမှာ `.
 
 `.git` ဟာ git repo အတွက်သက်ဆိုင်တဲ့ code history နဲ့ information data တွေကို သိမ်းဆည်းထားပေးတဲ့ folder တစ်ခုဖြစ်တယ်
 
-code history တွေနှင့် information data အားလုံးကို Git repo တွင် သိမ်းဆည်းထားသော်လည်း working directory မှာတော့ လက်ရှိ **branch** နဲ့ **commit** _(နောက်မှရှင်းပြရန်)_ မှ code များကိုသာ ပြသနေမည်ဖြစ်သည်
+code history တွေနှင့် information data အားလုံးကို Git repo တွင် သိမ်းဆည်းထားသော်လည်း working directory မှာတော့ လက်ရှိ **branch** နဲ့ **commit** _(နောက်ပိုင်းတွင်ဆက်ရှင်းမည်)_ မှ code များကိုသာ ပြသနေမည်ဖြစ်သည်
 
 ![Repo and Working Dir](/images/blogs/git-basic/repo-wd.png)
 

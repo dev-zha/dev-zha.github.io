@@ -51,7 +51,7 @@ Once the command execution is complete, a folder named `.git` will appear in the
 
 `.git` is a folder that stores the code history and information data related to the Git repo.
 
-While all the code history and informational data are stored in the Git repo, the working directory will only display the code from the current **branch** and **commit** (to be explained later).
+While all the code history and informational data are stored in the Git repo, the working directory will only display the code from the current **branch** and **commit** (will explain later).
 
 ![Repo and Working Dir](/images/blogs/git-basic/repo-wd.png)
 
