@@ -8,7 +8,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: profileData.name,
   description: `${profileData.name}'s Portfolio`,
-  metadataBase: new URL(`https://${process.env.APP_URL}`),
+  metadataBase: new URL(`https://${process.env.APP_URL || 'dev-zha.github.io'}`),
   openGraph: {
     title: profileData.name,
     description: `${profileData.name}'s Portfolio`,
