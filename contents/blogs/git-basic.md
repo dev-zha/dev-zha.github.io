@@ -22,6 +22,7 @@ tags:
 ### Git Account Login
 
 If you already have a Git Account login on your PC, you can skip this step.
+To do global git config, enter your data in place of username and email and run the following command in the terminal
 
 ```bash
 git config --global user.name "Your Username"

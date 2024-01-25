@@ -20,6 +20,7 @@ tags:
 ### Git Account Login
 
 PC ထဲမှာ Git Account login ဝင်ထားပြီးဖြစ်ပါက ဤအဆင့်ကို ကျော်သွားနိုင်သည်။
+Global git config လုပ်ဖို့အတွက် username နဲ့ email နေရာမှာ မိမိ၏ data ကိုထည့်ပြီး terminal ထဲမှာ အောက်ပါ command run လိုက်ပါမယ်
 
 ```
 git config --global user.name "Your Username"
