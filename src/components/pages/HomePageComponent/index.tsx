@@ -3,7 +3,6 @@ import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
 import Blogs from './Blogs';
-import GetInTouch from './GetInTouch';
 import { getSortedBlogsData } from '@/lib/blog';
 import { getSortedProjectsData } from '@/lib/project';
 import ContactMe from './ContactMe';
@@ -19,7 +18,6 @@ export default function HomePageComponent() {
       <Skills />
       <Projects projects={projects} />
       <Blogs blogs={blogs} />
-      <GetInTouch />
       <ContactMe/>
     </>
   );

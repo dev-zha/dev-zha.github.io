@@ -42,14 +42,13 @@
   },
   {
     "id": "my-portfolio",
-    "title": "My Portfolio: Next.js Unveiled",
+    "title": "My Portfolio: Next.js",
     "description": "Craft a dynamic portfolio with Next.js, Tailwind CSS, and Framer Motion, featuring static pages and Markdown blogging.",
     "image": "/images/projects/my-portfolio/feature-image.png",
     "order": 2,
     "tags": [
       "Next.js",
       "Tailwind",
-      "Framer Motion",
       "Markdown"
     ],
     "sourceCode": "https://github.com/dev-zha/dev-zha.github.io",
