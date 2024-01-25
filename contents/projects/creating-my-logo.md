@@ -2,7 +2,7 @@
 title: 'Creating My Logo'
 description: 'Crafting a visual representation through the design and implementation of my logo.'
 image: '/images/projects/creating-my-logo/feature-image.png'
-order: 1
+order: 3
 sourceCode: ''
 liveUrl: ''
 tags:

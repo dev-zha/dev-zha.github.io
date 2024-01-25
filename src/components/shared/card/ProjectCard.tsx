@@ -78,7 +78,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         alt={`${project.title} - Cover`}
         className="h-full w-full object-cover"
       />
-      <div className="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-t from-black/70 via-black/20 via-50% group-hover:to-black/30">
+      <div className="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-t from-black/80 via-black/50 via-50% group-hover:to-black/30">
         <div className="flex h-full flex-col justify-end p-5">
           <h6 className="text-gray-100 text-xl font-bold line-clamp-2">
             {project.title}

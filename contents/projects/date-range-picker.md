@@ -2,7 +2,7 @@
 title: 'Date Range Picker'
 description: 'Date range picker component using MUI date picker without the need for a licensed MUI date range picker.'
 image: '/images/projects/date-range-picker/feature-image.png'
-order: 1
+order: 4
 sourceCode: 'https://github.com/dev-zha/material-date-range-picker'
 liveUrl: 'https://xdpc2n.csb.app/'
 tags:

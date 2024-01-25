@@ -1,10 +1,25 @@
 [
   {
+    "id": "coffee-shop-app",
+    "title": "A Modern Coffee Shop App",
+    "description": "Build a sleek coffee shop app with React, Vite, and top-tier libraries for a stylish and feature-rich user experience.",
+    "image": "/images/projects/coffee-shop-app/feature-image.png",
+    "order": 1,
+    "tags": [
+      "React.js",
+      "Vite",
+      "Tailwind",
+      "Mapbox"
+    ],
+    "sourceCode": "https://github.com/dev-zha/coffee-shop",
+    "liveUrl": "https://coffee-shop-ashen-ten.vercel.app"
+  },
+  {
     "id": "creating-my-logo",
     "title": "Creating My Logo",
     "description": "Crafting a visual representation through the design and implementation of my logo.",
     "image": "/images/projects/creating-my-logo/feature-image.png",
-    "order": 1,
+    "order": 3,
     "tags": [
       "Logo Design",
       "Graphic Design"
@@ -17,12 +32,27 @@
     "title": "Date Range Picker",
     "description": "Date range picker component using MUI date picker without the need for a licensed MUI date range picker.",
     "image": "/images/projects/date-range-picker/feature-image.png",
-    "order": 1,
+    "order": 4,
     "tags": [
       "React.js",
       "Material-UI"
     ],
     "sourceCode": "https://github.com/dev-zha/material-date-range-picker",
     "liveUrl": "https://xdpc2n.csb.app/"
+  },
+  {
+    "id": "my-portfolio",
+    "title": "My Portfolio: Next.js Unveiled",
+    "description": "Craft a dynamic portfolio with Next.js, Tailwind CSS, and Framer Motion, featuring static pages and Markdown blogging.",
+    "image": "/images/projects/my-portfolio/feature-image.png",
+    "order": 2,
+    "tags": [
+      "Next.js",
+      "Tailwind",
+      "Framer Motion",
+      "Markdown"
+    ],
+    "sourceCode": "https://github.com/dev-zha/dev-zha.github.io",
+    "liveUrl": "https://dev-zha.github.io/"
   }
 ]

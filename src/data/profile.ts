@@ -12,6 +12,7 @@ export const profileData = {
   name: 'Zaw Htet Aung',
   position: 'Software Developer',
   email: 'zawhtetaung21199@gmail.com',
+  phone: '+959791425608',
   aboutMe: `Hey there! I'm Zaw Hte Aung, a Software Developer 
 currently employed at a Tech Solution Company in Yangon. 
 I enjoy working on both web and mobile applications, 
