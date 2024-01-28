@@ -54,11 +54,11 @@ export const socialLinks: SocialLink[] = [
   {
     name: 'Email',
     icon: SiMaildotru,
-    link: 'mailto:zawhtetaung21199@gmail.com',
+    link: `mailto:${profileData.email}`,
   },
   {
     name: 'Phone',
     icon: MdPhoneEnabled,
-    link: 'tel:+959791425608',
+    link: `tel:${profileData.phone}`,
   },
 ];

@@ -16,7 +16,6 @@ export default function GoToListBtn() {
             type: 'spring',
             bounce: 0.2,
             duration: 0.8,
-            delay: 1,
           },
         },
       }}
