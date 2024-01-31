@@ -11,7 +11,8 @@ export default function BlogCard({ blog }: BlogCardProps) {
   return (
     <Link
       href={`/blogs/${blog.id}`}
-      className="group relative flex flex-col md:flex-row gap-4 w-full md:h-48 rounded-3xl bg-white shadow-xl p-4 ring-1 ring-gray-900/10 hover:scale-[101%] transition ease-in cursor-pointer overflow-hidden"
+      // group w-full h-80 bg-white rounded-3xl shadow-sm hover:shadow-lg hover:shadow-primary-200 border border-neutral-300 hover:border-primary-300 hover:-translate-y-2 transition ease-in overflow-hidden cursor-pointer
+      className="group relative flex flex-col md:flex-row gap-4 w-full md:h-48 rounded-3xl bg-white shadow-md hover:shadow-lg hover:shadow-primary-200 p-4 border border-neutral-300 hover:border-primary-300 hover:scale-[102%] transition ease-in cursor-pointer overflow-hidden"
     >
       <div className="flex-shrink-0">
         <img
