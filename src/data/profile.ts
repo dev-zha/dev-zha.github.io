@@ -22,7 +22,7 @@ If you have an exciting opportunity that aligns with my skills and experience,
 please don't hesitate to contact me.`,
 };
 
-export const resumeLink = 'www.google.com';
+export const resumeLink = 'https://drive.google.com/file/d/1BeGAM6QucV3-xg6Sj4IijnSieTBkGdv_/view';
 
 export interface SocialLink {
   name: string;

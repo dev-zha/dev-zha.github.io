@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { profileData, socialLinks } from '@/data/profile';
+import { profileData, resumeLink, socialLinks } from '@/data/profile';
 import Button from '@/components/shared/button/Button';
 
 export default function Info() {
@@ -46,11 +46,7 @@ export default function Info() {
           },
         }}
       >
-        <Button
-          href="https://drive.google.com/drive/folders/1GKbEdP0ckBg3NElOE7hdACzCimeQjGPD?usp=drive_link"
-          target="_blank"
-          className="inline-block mt-8"
-        >
+        <Button href={resumeLink} target="_blank" className="inline-block mt-8">
           Download Resume
         </Button>
       </motion.div>
