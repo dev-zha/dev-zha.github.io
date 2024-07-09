@@ -74,7 +74,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Check Environment Variables
-        run: echo "${{ vars.APP_URL }} ${{ vars.NEXT_PUBLIC_MEASUREMENT_ID }}"
+        run: echo "${{ secrets.APP_URL }} ${{ secrets.NEXT_PUBLIC_MEASUREMENT_ID }}"
       - name: Build with Next.js
         env:
           APP_URL: ${{ vars.APP_URL }}
