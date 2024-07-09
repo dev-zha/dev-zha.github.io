@@ -10,10 +10,11 @@
     "scripts:build": "ts-node src/scripts/build-docs.ts"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.4",
     "framer-motion": "^10.16.5",
     "fs-extra": "^11.2.0",
     "gray-matter": "^4.0.3",
-    "next": "14.0.2",
+    "next": "^14.2.4",
     "nprogress": "^0.2.0",
     "path": "^0.12.7",
     "react": "^18",
