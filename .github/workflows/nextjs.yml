@@ -73,13 +73,6 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Check Environment Variables
-        run: |
-          echo "App URL : $APP_URL"
-          echo "Google Analytics Id : $NEXT_PUBLIC_MEASUREMENT_ID"
-        env:
-          APP_URL: ${{ vars.APP_URL }}
-          NEXT_PUBLIC_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_MEASUREMENT_ID }}
       - name: Build with Next.js
         env:
           APP_URL: ${{ vars.APP_URL }}

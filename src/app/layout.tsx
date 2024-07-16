@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: profileData.name,
   description: `${profileData.name}'s Portfolio`,
   metadataBase: new URL(
-    `https://${process.env.APP_URL || 'dev-zha.github.io'}`
+    process.env.APP_URL ? `https://${process.env.APP_URL}` : '/'
   ),
   openGraph: {
     title: profileData.name,
