@@ -4,7 +4,7 @@ import { useState } from 'react';
 import HorizonParallax from './HorizonParallax';
 import { SkillIcon, skillIcons } from './data';
 
-const DEFAULT_VELOCITY = 2;
+const DEFAULT_VELOCITY = 1.1;
 
 export default function Skills() {
   // Moving Speed
