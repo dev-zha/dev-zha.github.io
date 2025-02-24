@@ -25,6 +25,7 @@ export default function SketchProfile() {
           src="images/zha-profile-sketch.png"
           width={512}
           height={1000}
+          priority={true}
           alt="Zaw Htet Aung - Sketch Image"
         />
       </motion.div>
