@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function SketchProfile() {
   return (
@@ -19,9 +20,11 @@ export default function SketchProfile() {
           },
         }}
       >
-        <img
+        <Image
           className="w-full h-full object-contain"
           src="images/zha-profile-sketch.png"
+          width={512}
+          height={1000}
           alt="Zaw Htet Aung - Sketch Image"
         />
       </motion.div>
